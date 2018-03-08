@@ -6,12 +6,11 @@
 # Configure your Docker registries here
 accounts:
 - name: dockerhub
-  address: https://index.docker.io
+  address: https://dockerregistry.hclets.com
+  username: gudadurga.p
+  password: Aug@2017
   repositories:
-    - library/alpine
-    - library/ubuntu
-    - library/centos
-    - library/nginx
+    - spinnaker_poc
 # - name: gcr
 #   address: https://gcr.io
 #   username: _json_key
